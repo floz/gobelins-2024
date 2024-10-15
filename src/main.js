@@ -17,3 +17,4 @@ ctx.fillRect( 0, 0, width, height )
 const squareSize = 100
 ctx.fillStyle = 'white'
 ctx.fillRect( ( width - squareSize ) * .5, ( height - squareSize ) * .5, squareSize, squareSize )
+
