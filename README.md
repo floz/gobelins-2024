@@ -5,5 +5,8 @@ https://nodejs.org/en/download/package-manager
 - Install pnpm (package manager)
 `npm install -g pnpm`
 
+- Install depedencies
+`npm i`
+
 - Start
 `pnpm start`
