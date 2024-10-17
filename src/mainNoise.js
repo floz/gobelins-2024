@@ -1,9 +1,6 @@
 import { Pane } from "tweakpane"
 import * as EssentialsPlugin from "@tweakpane/plugin-essentials"
 import CircleNoise from "./elements/CircleNoise"
-import MultiCircleNoise from "./elements/MultiCircleNoise"
-import { SimplexNoise } from "./utils/noise"
-import { hexToHSL } from "./utils/color"
 
 const domApp = document.getElementById( 'app' )
 
@@ -45,7 +42,6 @@ pane.addBlade({ view: 'separator'})
 pane.addBinding( data, 'color', { view: 'color' } ).on( 'change', initAndDraw )
 
 let circles = null
-const noise = new SimplexNoise()
 
 function initAndDraw() {
 	init()
