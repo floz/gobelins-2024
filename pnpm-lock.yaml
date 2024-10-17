@@ -17,7 +17,7 @@ devDependencies:
     specifier: ^0.2.0
     version: 0.2.1(tweakpane@4.0.4)
   tweakpane:
-    specifier: ^4.0.0
+    specifier: ^4.0.4
     version: 4.0.4
   vite:
     specifier: ^4.1.0
